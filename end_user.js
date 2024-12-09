@@ -16,7 +16,7 @@ function executeQuery(collection, query) {
         var sum = 0;
         times.forEach(num => { sum+=num});
 
-        print("avg execution time : " + sum/10 + "ms");
+        print("avg execution time : " + sum/8 + "ms");
     } catch(error) {
         print(error)
     }
