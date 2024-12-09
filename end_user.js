@@ -18,7 +18,7 @@ function executeQuery(collection, query) {
 
         print("avg execution time : " + sum/10 + "ms");
     } catch(error) {
-        print("error")
+        print(error)
     }
 }
 
